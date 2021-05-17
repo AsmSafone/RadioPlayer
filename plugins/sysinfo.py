@@ -1,6 +1,6 @@
 # AsmSafone
 # Radio Player
-# Join @AsmSafone
+# Join @disneygrou
 
 from datetime import datetime
 
@@ -73,7 +73,7 @@ async def generate_sysinfo(workdir):
                    & ~filters.via_bot
                    & filters.regex("^!sysinfo$"))
 async def get_sysinfo(client, m):
-    response = "**System Information**:\n(Safone Radio Player Userbot)\n"
+    response = "**System Information**:\n(disney team Radio Player Userbot)\n"
     m_reply = await m.reply_text(f"{response}`...`")
     response += await generate_sysinfo(client.workdir)
     await m_reply.edit_text(response)
