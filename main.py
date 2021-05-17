@@ -1,6 +1,6 @@
 # AsmSafone
 # Radio Player
-# Join @AsmSafone
+# Join @disneygrou
 
 from os import environ
 from config import Config
@@ -26,7 +26,7 @@ PLUGINS = dict(
 app = Client(SESSION, API_ID, API_HASH, plugins=PLUGINS)
 # logging.basicConfig(level=logging.INFO)
 app.start()
-print('>>> USERBOT STARTED. JOIN @ASMSAFONE')
+print('>>> USERBOT STARTED. JOIN @disneygrou')
 idle()
 app.stop()
-print('\n>>> USERBOT STOPPED. JOIN @ASMSAFONE')
+print('\n>>> USERBOT STOPPED. JOIN @disneygrou')
