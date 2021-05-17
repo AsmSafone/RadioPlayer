@@ -1,6 +1,6 @@
 # AsmSafone
 # Radio Player
-# Join @AsmSafone
+# Join @disneygrou
 
 """
 !ping reply with pong
