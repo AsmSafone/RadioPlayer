@@ -19,7 +19,7 @@ or running [genStr.py](genStr.py) by yourself on heroku run console.
 
 1. `API_ID` : Get From my.telegram.org
 2. `API_HASH` : Get from my.telegram.org
-3. `SESSION` : Generate from [@genStr robot](http://t.me/genStr_robot).
+3. `SESSION` : Generate from the owner [Doreamonfans](http://t.me/doreamonfans3.
 5. `CHAT_NAME` : Username of Channel/Group where the bot plays Radio.
 7. `ADMIN` : ID of user who can who can control the userbot.
 
@@ -35,5 +35,5 @@ or running [genStr.py](genStr.py) by yourself on heroku run console.
 
 ## Credits
 
-- @AsmSafone [Dev]
-- @MarshalX [For tgcalls]
+- @doreamonfans1 [Dev]
+- @doreamonfans2 [For tgcalls]
