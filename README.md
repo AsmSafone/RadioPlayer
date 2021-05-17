@@ -1,4 +1,4 @@
-# Telegram Radio Player UserBot
+# Disney team Radio Player UserBot
 
 A Telegram UserBot to Play Radio in Channel or Group Voice Chats.
 
