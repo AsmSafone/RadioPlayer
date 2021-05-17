@@ -1,6 +1,6 @@
 # AsmSafone
 # Radio Player
-# Join @AsmSafone
+# Join @disneygrou
 
 """
 Generate Pyrogram Session String and send it to
@@ -25,7 +25,7 @@ async def main():
         await app.send_message(
             "me",
             "**Pyrogram Session String**:\n\n"
-            f"`{await app.export_session_string()}`\n\n**Join Updates Channel @AsmSafone!**"
+            f"`{await app.export_session_string()}`\n\n**Join Updates Channel @disneygrou!**"
         )
         print(
             "Done, your Pyrogram session string has been sent to "
