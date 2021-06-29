@@ -39,7 +39,7 @@ or running [genStr.py](genStr.py) by yourself on heroku run console.
 ```sh
 $ git clone https://github.com/AsmSafone/RadioPlayer
 $ cd RadioPlayer
-$ sudo apt-get install ffmpeg
+$ sudo apt-get install python3-pip ffmpeg
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
 ```
@@ -52,5 +52,5 @@ $ python3 main.py
 
 ## Credits
 
-- @AsmSafone [Dev]
-- @MarshalX [For tgcalls]
+- AsmSafone [Dev]
+- MarshalX [For tgcalls]
