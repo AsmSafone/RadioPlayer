@@ -29,7 +29,7 @@ msg=Config.msg
 HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
 HELP_TEXT = """
 🎧 **Need Help ?** 
-__(Join @SafoTheBot For Support)__
+__(Join @ For Support)__
 
 🏷️ **Common Commands** :
 
@@ -64,19 +64,19 @@ __(Join @SafoTheBot For Support)__
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL 💥", url="https://t.me/mod_apk_premium_cs"),
+                InlineKeyboardButton("SUPPORT 😉", url="https://t.me/seriesprovider1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayer/tree/V3.0"),
+                InlineKeyboardButton("💫OWNER 👑", url="https://t.me/iAmLiKu1"),
+                InlineKeyboardButton("FOLLOW ME 🤗", url="https://instagram.com/liku__cs?utm_medium=copy_link"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    m=await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    m=await message.reply_photo(photo="https://telegra.ph/file/2af51be858db592dca309.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await mp.delete(m)
     await message.delete()
 
@@ -86,12 +86,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL 💥", url="https://t.me/mod_apk_premium_cs"),
+                InlineKeyboardButton("SUPPORT 😉", url="https://t.me/seriesprovider1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayer/tree/V3.0"),
+                InlineKeyboardButton("💫OWNER 👑", url="https://t.me/iAmLiKu1"),
+                InlineKeyboardButton("FOLLOW ME🤗", url="https://instagram.com/liku__cs?utm_medium=copy_link"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
@@ -100,11 +100,11 @@ async def show_help(client, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
         await msg['help'].delete()
-    msg['help'] = await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HELP_TEXT, reply_markup=reply_markup)
+    msg['help'] = await message.reply_photo(photo="https://telegra.ph/file/2af51be858db592dca309.jpg", caption=HELP_TEXT, reply_markup=reply_markup)
     await message.delete()
 @Client.on_message(filters.command(["restart", f"restart@{USERNAME}"]) & filters.user(Config.ADMINS) & (filters.chat(CHAT) | filters.private))
 async def restart(client, message):
-    await message.reply_text("🔄 **Restarting... Join @AsmSafone!**")
+    await message.reply_text("🔄 **Restarting... @iAmLiKu1**")
     await message.delete()
     process = FFMPEG_PROCESSES.get(CHAT)
     if process:
