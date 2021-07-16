@@ -25,7 +25,7 @@ playlist=Config.playlist
 
 HELP = """
 🎧 **Need Help ?** 
-__(Join @SafoTheBot For Support)__
+__(Join @mod_apk_premium_cs For Support)__
 
 🏷️ **Common Commands** :
 
@@ -52,7 +52,7 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/restart` - restart the bot
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@iAmLiKu1 | @iAmLiKu1** 👑
 """
 
 
@@ -164,12 +164,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL 💥", url="https://t.me/mod_apk_premium_cs"),
+                InlineKeyboardButton("SUPPORT 😉", url="https://t.me/seriesprovider1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayer/tree/V3.0"),
+                InlineKeyboardButton("💫 Owner 👑", url="https://t.me/iAmLiKu1"),
+                InlineKeyboardButton("Follow Me🤗", url="https://instagram.com/liku__cs?utm_medium=copy_link"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
