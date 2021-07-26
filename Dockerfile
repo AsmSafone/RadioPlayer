@@ -7,9 +7,9 @@ ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y ffmpeg opus-tools bpm-tools
 RUN python -m pip install --upgrade pip
-RUN python -m pip install wheel pyrogram tgCrypto
-RUN python -m pip install pytgcalls ffmpeg-python psutil
-RUN python -m pip install tgintegration youtube-dl youtube_search requests
+RUN python -m pip install wheel tgintegration psutil
+RUN python -m pip install pytgcalls[pyrogram] TgCrypto ffmpeg-python
+RUN python -m pip install youtube-dl youtube_search requests
 
 RUN wget -q https://github.com/AsmSafone/RadioPlayer/archive/V2.0.tar.gz && tar xf V2.0.tar.gz && rm V2.0.tar.gz
 
