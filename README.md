@@ -12,7 +12,7 @@
 [![Bot Support](https://img.shields.io/badge/Radio%20Player%20V2-support%20group-blue)](https://t.me/safothebot)
 
 
-An Telegram Bot to Play Radio/Music in Channel or Group Voice Chats.
+An Telegram Bot to Play Nonstop Radio/Music in Channel or Group Voice Chats.
 
 This is also the source code of the bot which is being used for playing
 Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](https://t.me/safothebot) Group.
@@ -76,8 +76,8 @@ $ python3 main.py
 
 ## License
 ```sh
-RadioPlayerV2, Telegram Voice Chat Userbot
-Copyright (C) 2021  Asm Safone
+RadioPlayer, Telegram Voice Chat Bot
+Copyright (C) 2021  Asm Safone <https://t.me/AsmSafone>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by

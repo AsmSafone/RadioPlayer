@@ -1,6 +1,6 @@
 """
-RadioPlayer, Telegram Voice Chat Userbot
-Copyright (C) 2021  Asm Safone
+RadioPlayer, Telegram Voice Chat Bot
+Copyright (C) 2021  Asm Safone <https://t.me/AsmSafone>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -26,12 +26,14 @@ from pyrogram.types import Message
 from pytgcalls import GroupCallFactory
 import signal
 from user import USER
+
 STREAM_URL=Config.STREAM_URL
 CHAT=Config.CHAT
 GROUP_CALLS = {}
 FFMPEG_PROCESSES = {}
 RADIO={6}
 LOG_GROUP=Config.LOG_GROUP
+
 class MusicPlayer(object):
     def __init__(self):
         self.group_call = GroupCallFactory(USER, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM).get_file_group_call()
