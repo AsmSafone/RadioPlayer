@@ -26,7 +26,7 @@ playlist=Config.playlist
 
 HELP = """
 🎧 **Need Help ?** 
-__(Join @SafoTheBot For Support)__
+__(Join @mwcinema For Support)__
 
 🏷️ **Common Commands** :
 
@@ -54,7 +54,7 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/restart` - restart the bot
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@mwcinema | @mwcinema** 👑
 """
 
 
@@ -166,11 +166,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/mwcinema"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/mwcinema"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/mwcinema"),
                 InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayer/tree/V3.0"),
             ],
             [
