@@ -1,9 +1,0 @@
-
-*.pyc
-*.raw
-*.log
-*.session
-unknown_errors.txt
-*.session-journal
-.env
-test.py
