@@ -1,12 +1,19 @@
 # Telegram Radio Player UserBot
 
 A Telegram UserBot to Play Radio in Channel or Group Voice Chats.
-
 This is also the source code of the userbot which is being used for playing
 Radio in [AsmSafone](https://t.me/AsmSafone) Channel.
 
+## Note: This Repo Archived & Non Maintained. 
 
-## Deploy to Heroku (The Easy Way)
+## New Repos Here [👇](https://t.me/AsmSafone)
+
+### >>> [RadioPlayerV2](https://github.com/AsmSafone/RadioPlayer/tree/V2.0)
+
+### >>> [RadioPlayerV3](https://github.com/AsmSafone/RadioPlayer/tree/V3.0)
+
+
+## Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayer)
 
@@ -34,7 +41,7 @@ or running [genStr.py](genStr.py) by yourself on heroku run console.
 - Telegram [String Session](http://t.me/genStr_robot) of the account.
 - Userbot Needs To Be Admin In The Channel or Group.
 
-## Run On VPS (The Hard Way)
+## Run On VPS
 
 ```sh
 $ git clone https://github.com/AsmSafone/RadioPlayer
